@@ -1,5 +1,13 @@
+
+.row{
+    margin-bottom: 1rem;
+    flex-wrap: nowrap;
+}
+
+
 .blue-box{
     background-color: #006cfa;
     height: 60px;
-    border: 1px solid white;
+    margin:.1rem;
+    flex-shrink: 1;
 }
