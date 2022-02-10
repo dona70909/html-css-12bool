@@ -17,12 +17,9 @@
     flex-wrap: wrap;
 }
 
-/* ? COLUMN */
-.column{
+/* ? LE CLM VARIANO NEI DIVERSI SCHERMI */
 
-}
-
-/* !  XS  */
+/* !  Extra small XS  */
 @media screen and (max-width:575px){
 
     /* column(sezione con contenuto) */
@@ -73,9 +70,61 @@
     .clm-xs-12{
         width: ((100% / 12) * 12);
     }
+
+    /* offset margin */
+
+    .offset-xs-1{
+        margin-left: calc((100% / 12) * 1);
+    }
+
+    .offset-xs-2{
+        margin-left: calc((100% / 12) * 2);
+    }
+
+    .offset-xs-3{
+        margin-left: calc((100% / 12) * 3);
+    }
+
+    .offset-xs-4{
+        margin-left: calc((100% / 12) * 4);
+    }
+
+    .offset-xs-5{
+        margin-left: calc((100% / 12) * 5);
+    }
+
+    .offset-xs-6{
+        margin-left: calc((100% / 12) * 6);
+    }
+
+    .offset-xs-7{
+        margin-left: calc((100% / 12) * 7);
+    }
+
+    .offset-xs-8{
+        margin-left: calc((100% / 12) * 8);
+    }
+
+    .offset-xs-9{
+        margin-left: calc((100% / 12) * 9);
+    }
+
+    .offset-xs-10{
+        margin-left: calc((100% / 12) * 10);
+    }
+
+    .offset-xs-11{
+        margin-left: calc((100% / 12) * 11);
+    }
+
+    .offset-xs-12{
+        margin-left: calc((100% / 12) * 12);
+    }
+
+
 }
 
-/* ! SMALL */
+/* ! SMALL  sm */
 
 @media screen and  (min-width:576px) and (max-width:767px){
 
@@ -126,6 +175,56 @@
 
     .clm-sm-12{
         width: ((100% / 12) * 12);
+    }
+
+       /* ******** offset margin left **** */
+
+    .offset-sm-1{
+        margin-left: calc((100% / 12) * 1);
+    }
+
+    .offset-sm-2{
+        margin-left: calc((100% / 12) * 2);
+    }
+
+    .offset-sm-3{
+        margin-left: calc((100% / 12) * 3);
+    }
+
+    .offset-sm-4{
+        margin-left: calc((100% / 12) * 4);
+    }
+
+    .offset-sm-5{
+        margin-left: calc((100% / 12) * 5);
+    }
+
+    .offset-sm-6{
+        margin-left: calc((100% / 12) * 6);
+    }
+
+    .offset-sm-7{
+        margin-left: calc((100% / 12) * 7);
+    }
+
+    .offset-sm-8{
+        margin-left: calc((100% / 12) * 8);
+    }
+
+    .offset-sm-9{
+        margin-left: calc((100% / 12) * 9);
+    }
+
+    .offset-sm-10{
+        margin-left: calc((100% / 12) * 10);
+    }
+
+    .offset-sm-11{
+        margin-left: calc((100% / 12) * 11);
+    }
+
+    .offset-sm-12{
+        margin-left: calc((100% / 12) * 12);
     }
 }
 
@@ -180,9 +279,59 @@
     .clm-md-12{
         width: ((100% / 12) * 12);
     }
+
+    /*  ********** offset margin **************/
+
+    .offset-md-1{
+        margin-left: calc((100% / 12) * 1);
+    }
+
+    .offset-md-2{
+        margin-left: calc((100% / 12) * 2);
+    }
+
+    .offset-md-3{
+        margin-left: calc((100% / 12) * 3);
+    }
+
+    .offset-md-4{
+        margin-left: calc((100% / 12) * 4);
+    }
+
+    .offset-md-5{
+        margin-left: calc((100% / 12) * 5);
+    }
+
+    .offset-md-6{
+        margin-left: calc((100% / 12) * 6);
+    }
+
+    .offset-md-7{
+        margin-left: calc((100% / 12) * 7);
+    }
+
+    .offset-md-8{
+        margin-left: calc((100% / 12) * 8);
+    }
+
+    .offset-md-9{
+        margin-left: calc((100% / 12) * 9);
+    }
+
+    .offset-md-10{
+        margin-left: calc((100% / 12) * 10);
+    }
+
+    .offset-md-11{
+        margin-left: calc((100% / 12) * 11);
+    }
+
+    .offset-md-12{
+        margin-left: calc((100% / 12) * 12);
+    }
 }
 
-/* !  Large */
+/* !  Large lg */
 @media screen and (min-width:992px) and (max-width: 1199px){
 
     /* column(sezione con contenuto) */
@@ -232,6 +381,56 @@
 
     .clm-lg-12{
         width: ((100% / 12) * 12);
+    }
+
+       /* ***************offset margin */
+
+    .offset-lg-1{
+        margin-left: calc((100% / 12) * 1);
+    }
+
+    .offset-lg-2{
+        margin-left: calc((100% / 12) * 2);
+    }
+
+    .offset-lg-3{
+        margin-left: calc((100% / 12) * 3);
+    }
+
+    .offset-lg-4{
+        margin-left: calc((100% / 12) * 4);
+    }
+
+    .offset-lg-5{
+        margin-left: calc((100% / 12) * 5);
+    }
+
+    .offset-lg-6{
+        margin-left: calc((100% / 12) * 6);
+    }
+
+    .offset-lg-7{
+        margin-left: calc((100% / 12) * 7);
+    }
+
+    .offset-lg-8{
+        margin-left: calc((100% / 12) * 8);
+    }
+
+    .offset-lg-9{
+        margin-left: calc((100% / 12) * 9);
+    }
+
+    .offset-lg-10{
+        margin-left: calc((100% / 12) * 10);
+    }
+
+    .offset-lg-11{
+        margin-left: calc((100% / 12) * 11);
+    }
+
+    .offset-lg-12{
+        margin-left: calc((100% / 12) * 12);
     }
 
 }
