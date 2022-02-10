@@ -1,13 +1,27 @@
-
+/* flex row */
 .row{
-    margin-bottom: 1rem;
+    margin-bottom: 1px;
     flex-wrap: nowrap;
 }
 
+.first-part{
+    margin-bottom: 1.5rem;
+}
 
+/* flex item */
 .blue-box{
     background-color: #006cfa;
     height: 60px;
     margin:.1rem;
     flex-shrink: 1;
+}
+
+.blue-box p{
+    text-align: center;
+    line-height: 45px;
+}
+
+.green-box{
+    transform: scale(.9);
+    background-color: green;
 }

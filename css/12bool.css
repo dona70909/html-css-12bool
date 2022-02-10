@@ -4,6 +4,14 @@
     padding: 0;
 }
 
+.relative{
+    position: relative;
+}
+
+.absolute{
+    position: absolute;
+}
+
 /* ?  CONTAINER MIDDLE  */
 .container{
     margin: 0 auto;
