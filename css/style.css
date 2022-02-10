@@ -4,7 +4,11 @@
     flex-wrap: nowrap;
 }
 
-.first-part{
+.first-section{
+    margin-bottom: 1.5rem;
+}
+
+.second-section{
     margin-bottom: 1.5rem;
 }
 
